@@ -15,7 +15,6 @@ function Slider() {
     <View className="py-5">
       <Carousel
         data={images}
-        loop
         autoplay
         renderItem={SliderItem}
         hasParallaxImages

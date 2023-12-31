@@ -4,43 +4,38 @@ export const bodyParts: {
 }[] = [
   {
     name: 'back',
-    image: require('../assets/images/back.png'),
+    image: require('../assets/images/body/back.webp'),
   },
   {
     name: 'cardio',
-    image: require('../assets/images/cardio.png'),
-  },
-
-  {
-    name: 'lower arms',
-    image: require('../assets/images/lowerArms.png'),
+    image: require('../assets/images/body/cardio.webp'),
   },
   {
     name: 'lower legs',
-    image: require('../assets/images/lowerLegs.png'),
+    image: require('../assets/images/body/lowerLegs.webp'),
   },
   {
     name: 'chest',
-    image: require('../assets/images/chest.png'),
+    image: require('../assets/images/body/chest.webp'),
   },
   {
     name: 'neck',
-    image: require('../assets/images/neck.png'),
+    image: require('../assets/images/body/neck.webp'),
   },
   {
     name: 'shoulders',
-    image: require('../assets/images/shoulders.png'),
+    image: require('../assets/images/body/shoulders.webp'),
   },
   {
     name: 'upper arms',
-    image: require('../assets/images/upperArms.png'),
+    image: require('../assets/images/body/upperArms.webp'),
   },
   {
     name: 'upper legs',
-    image: require('../assets/images/upperLegs.png'),
+    image: require('../assets/images/body/upperLegs.webp'),
   },
   {
     name: 'waist',
-    image: require('../assets/images/waist.png'),
+    image: require('../assets/images/body/waist.webp'),
   },
 ];

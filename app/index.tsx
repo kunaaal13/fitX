@@ -31,21 +31,21 @@ function Welcome() {
         className="flex justify-end pb-12 space-y-8">
         <View className="flex items-center">
           <Animated.Text
-            entering={FadeInLeft.duration(350).springify()}
+            entering={FadeInLeft.duration(200).springify()}
             style={{ fontSize: hp(5) }}
             className="text-white font-bold tracking-wide">
             Best <Text className="text-violet-500">Workouts</Text>
           </Animated.Text>
 
           <Animated.Text
-            entering={FadeInRight.duration(350).springify()}
+            entering={FadeInRight.duration(400).springify()}
             style={{ fontSize: hp(5) }}
             className="text-white font-bold tracking-wide">
             For You
           </Animated.Text>
         </View>
 
-        <Animated.View entering={FadeInDown.delay(200).springify()}>
+        <Animated.View entering={FadeInDown.duration(400).delay(600).springify()}>
           <TouchableOpacity
             onPress={() => router.push('/home')}
             style={{

@@ -1,3 +1,4 @@
+import BodyPartsList from 'components/home/body-parts';
 import HomeHeader from 'components/home/header';
 import Slider from 'components/home/slider';
 import { StatusBar } from 'expo-status-bar';
@@ -9,6 +10,7 @@ function Home() {
       <StatusBar style="dark" />
       <HomeHeader />
       <Slider />
+      <BodyPartsList />
     </SafeAreaView>
   );
 }

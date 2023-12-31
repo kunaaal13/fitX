@@ -1,4 +1,5 @@
 import { Image } from 'expo-image';
+import { Link } from 'expo-router';
 import { Text, View } from 'react-native';
 import { heightPercentageToDP } from 'react-native-responsive-screen';
 
@@ -38,14 +39,16 @@ function HomeHeader() {
 
       {/* Right */}
       <View className="flex items-center">
-        <Image
-          source={require('assets/images/avatar.jpeg')}
-          className="rounded-full bg-cover"
-          style={{
-            height: heightPercentageToDP('6%'),
-            width: heightPercentageToDP('6%'),
-          }}
-        />
+        <Link href="/">
+          <Image
+            source={require('assets/images/avatar.jpeg')}
+            className="rounded-full bg-cover"
+            style={{
+              height: heightPercentageToDP('6%'),
+              width: heightPercentageToDP('6%'),
+            }}
+          />
+        </Link>
       </View>
     </View>
   );
